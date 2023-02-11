@@ -4,17 +4,30 @@
     box-sizing: border-box;
 }
 
+:root {
+    font-size: 62.5%;
+
+    --primary-color: #4C545C;
+    --second-color: #9EABB2;
+    --btn-ios-color: #26BBA4;
+    --btn-ios-hover: #41D8C1;
+    --btn-mac-color: #6174FF;
+    --btn-mac-hover: #7B68EE;
+    --text-button: #FFFFFF;
+    --link-hover: #CFD4D8;
+}
+
 body {
     width: 100%;
     font-family: 'Bai Jamjuree', sans-serif;
 }
 
 h1, h2 {
-    color: #4C545C;
+    color: var(--primary-color);
 }
 
 p {
-    color: #9EABB2;
+    color: var(--second-color);
 }
 
 a {
@@ -81,15 +94,15 @@ header::before {
     padding: 20px;
     border: none;
     border-radius: 100px;
-    color: white;
+    color: var(--text-button);
     font-weight: 700;
     font-size: 15px;
-    background-color: #26BBA4;
+    background-color: var(--btn-ios-color);
     cursor: pointer;
 }
 
 .btn-cabeçalho-ios:hover {
-    background-color: #41D8C1;
+    background-color: var(--btn-ios-hover);
 }
 
 .btn-cabeçalho-mac {
@@ -97,15 +110,15 @@ header::before {
     padding: 20px;
     border: none;
     border-radius: 100px;
-    color: white;
+    color: var(--text-button);
     font-weight: 700;
     font-size: 15px;
-    background-color: #6174FF;
+    background-color: var(--btn-mac-color);
     cursor: pointer;
 }
 
 .btn-cabeçalho-mac:hover {
-    background-color: #7B68EE;
+    background-color: var(--btn-mac-hover);
 }
 
 main {
@@ -277,15 +290,15 @@ main {
     padding: 20px;
     border: none;
     border-radius: 100px;
-    color: white;
+    color: var(--text-button);
     font-weight: 700;
     font-size: 15px;
-    background-color: #26BBA4;
+    background-color: var(--btn-ios-color);
     cursor: pointer;
 }
 
 .btn-download-ios:hover {
-    background-color: #41D8C1;
+    background-color: var(--btn-ios-hover);
 }
 
 .btn-download-mac {
@@ -293,15 +306,15 @@ main {
     padding: 20px;
     border: none;
     border-radius: 100px;
-    color: white;
+    color: var(--text-button);
     font-weight: 700;
     font-size: 15px;
-    background-color: #6174FF;
+    background-color: var(--btn-mac-color);
     cursor: pointer;
 }
 
 .btn-download-mac:hover {
-    background-color: #7B68EE;
+    background-color: var(--btn-mac-hover);
 }
 
 footer {
@@ -321,7 +334,7 @@ footer::before {
     border-radius: 4px;
     position: absolute;
     z-index: -1;
-    background: #9EABB2;
+    background: var(--second-color);
     opacity: 0.2;
 }
 
@@ -336,12 +349,12 @@ footer::before {
 }
 
 .links a {
-    color: #4C545C;
+    color: var(--primary-color);
     margin: 10px;
 }
 
 .links a:hover{
-    color: #CFD4D8;
+    color: var(--link-hover);
 }
 
 .social-footer {
