@@ -4,17 +4,31 @@
     box-sizing: border-box;
 }
 
+:root {
+    font-size: 62.5%;
+
+    --primary-color: #4C545C;
+    --second-color: #9EABB2;
+    --btn-ios-color: #26BBA4;
+    --btn-ios-hover: #41D8C1;
+    --btn-mac-color: #6174FF;
+    --btn-mac-hover: #7B68EE;
+    --text-button: #FFFFFF;
+    --link-hover: #CFD4D8;
+}
+
 body {
+    font-size: 1.6rem;
     width: 100%;
     font-family: 'Bai Jamjuree', sans-serif;
 }
 
 h1, h2 {
-    color: #4C545C;
+    color: var(--primary-color);
 }
 
 p {
-    color: #9EABB2;
+    color: var(--second-color);
 }
 
 a {
@@ -32,7 +46,7 @@ header::before {
     content: '';
     position: absolute;
     width: 100%;
-    height: 350px;
+    height: 35.0rem;
     top: 3;
     z-index: -1;
     background-image: url(../assets/banner.png);
@@ -45,26 +59,26 @@ header::before {
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 400px;
+    height: 40.0rem;
 }
 
 .container-cabeçalho img {
-    margin-top: 128px;
-    width: 125px;
+    margin-top: 12.8rem;
+    width: 12.5rem;
     height: auto;
 }
 
 .container-cabeçalho h1 {
-    margin-top: 40px;
+    margin-top: 4.0rem;
     font-weight: 700;
 }
 
 .container-cabeçalho p {
-    margin-top: 20px;
-    font-size: 18px;
+    margin-top: 2.0rem;
+    font-size: 1.8rem;
     font-weight: 400;
-    line-height: 30px;
-    letter-spacing: 0.13px;
+    line-height: 3.0rem;
+    letter-spacing: 0.13rem;
     text-align: center;
 }
 
@@ -72,40 +86,40 @@ header::before {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 3.0rem;
     gap: 1rem;
 }
 
 .btn-cabeçalho-ios {
     width: 15%;
-    padding: 20px;
+    padding: 2.0rem;
     border: none;
-    border-radius: 100px;
-    color: white;
+    border-radius: 10.0rem;
+    color: var(--text-button);
     font-weight: 700;
-    font-size: 15px;
-    background-color: #26BBA4;
+    font-size: 1.5rem;
+    background-color: var(--btn-ios-color);
     cursor: pointer;
 }
 
 .btn-cabeçalho-ios:hover {
-    background-color: #41D8C1;
+    background-color: var(--btn-ios-hover);
 }
 
 .btn-cabeçalho-mac {
     width: 15%;
-    padding: 20px;
+    padding: 2.0rem;
     border: none;
-    border-radius: 100px;
-    color: white;
+    border-radius: 10.0rem;
+    color: var(--text-button);
     font-weight: 700;
-    font-size: 15px;
-    background-color: #6174FF;
+    font-size: 1.5rem;
+    background-color: var(--btn-mac-color);
     cursor: pointer;
 }
 
 .btn-cabeçalho-mac:hover {
-    background-color: #7B68EE;
+    background-color: var(--btn-mac-hover);
 }
 
 main {
@@ -126,31 +140,31 @@ main {
 }
 
 .section-titulo-trechos p {
-    margin-top: 20px;
-    font-size: 18px;
+    margin-top: 2.0rem;
+    font-size: 1.8rem;
     font-weight: 400;
-    line-height: 30px;
-    letter-spacing: 0.13px;
+    line-height: 3.0rem;
+    letter-spacing: 0.13rem;
     text-align: center;
 }
 
 .section-img-titulo-trechos {
     width: 100%;
     display: flex;
-    margin-top: 60px;
+    margin-top: 6.0rem;
     gap: 5rem;
 }
 
 .section-textos-trechos h2 {
-    padding-top: 40px;
+    padding-top: 4.0rem;
 }
 
 .section-textos-trechos p {
-    margin-top: 20px;
-    font-size: 18px;
+    margin-top: 2.0rem;
+    font-size: 1.8rem;
     font-weight: 400;
-    line-height: 30px;
-    letter-spacing: 0.13px;
+    line-height: 3.0rem;
+    letter-spacing: 0.13rem;
     text-align: left;
 }
 
@@ -164,36 +178,36 @@ main {
 }
 
 .section-titulo-transfer p {
-    margin-top: 20px;
-    font-size: 18px;
+    margin-top: 2.0rem;
+    font-size: 1.8rem;
     font-weight: 400;
-    line-height: 30px;
-    letter-spacing: 0.13px;
+    line-height: 3.0rem;
+    letter-spacing: 0.13rem;
     text-align: center;
 }
 
 .section-img-titulo-transfer {
     position: absolute;
-    width: 812px;
-    height: 475px;
-    left: 314px;
-    top: 1640px;
+    width: 81.2rem;
+    height: 47.5rem;
+    left: 31.4rem;
+    top: 164.0rem;
 }
 
 .fluxo-work-titulo h1 {
-    margin-top: 600px;
-    font-size: 36px;
+    margin-top: 60.0rem;
+    font-size: 3.6rem;
     font-weight: 600;
-    line-height: 45px;
-    letter-spacing: -0.58px;
+    line-height: 4.5rem;
+    letter-spacing: -0.58rem;
     text-align: center;
 }
 
 .fluxo-work-titulo p {
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 400;
-    line-height: 30px;
-    letter-spacing: 0.13px;
+    line-height: 3.0rem;
+    letter-spacing: 0.13rem;
     text-align: center;
 
 }
@@ -203,27 +217,27 @@ main {
     grid-template-columns: 1fr 1fr 1fr;
     align-items: baseline;
     text-align: center;
-    width: 1110px;
-    height: 216px;
-    margin-top: 60px;
+    width: 111.0rem;
+    height: 21.6rem;
+    margin-top: 6.0rem;
     gap: 3.0rem;
     margin-left: auto;
     margin-right: auto;
 }
 
 .section-fluxo-work h2 {
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: 600;
-    line-height: 30px;
-    letter-spacing: -0.39px;
+    line-height: 3.0rem;
+    letter-spacing: -0.39rem;
     text-align: center;
 }
 
 .section-fluxo-work p {
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 400;
-    line-height: 30px;
-    letter-spacing: 0.11px;
+    line-height: 3.0rem;
+    letter-spacing: 0.11rem;
     text-align: center;
 }
 
@@ -236,11 +250,11 @@ main {
 .parceiros img {
     display: inline-flex;
     vertical-align: middle;
-    margin: 0 40px;
-    width: 165px;
-    height: 49px;
-    left: 165px;
-    top: 3070px;
+    margin: 0 4.0rem;
+    width: 16.5rem;
+    height: 4.9rem;
+    left: 16.5rem;
+    top: 307.0rem;
 }
 
 .container-download {
@@ -253,14 +267,14 @@ main {
 }
 
 .container-download h1 {
-    margin-top: 40px;
+    margin-top: 4.0rem;
     font-weight: 700;
 }
 
 .container-download p {
     width: 40%;
-    margin-top: 20px;
-    font-size: 16px;
+    margin-top: 2.0rem;
+    font-size: 1.6rem;
     font-weight: 400;
 }
 
@@ -268,45 +282,45 @@ main {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 3.0rem;
     gap: 1rem;
 }
 
 .btn-download-ios {
     width: 15%;
-    padding: 20px;
+    padding: 2.0rem;
     border: none;
     border-radius: 100px;
-    color: white;
+    color: var(--text-button);
     font-weight: 700;
-    font-size: 15px;
-    background-color: #26BBA4;
+    font-size: 1.5rem;
+    background-color: var(--btn-ios-color);
     cursor: pointer;
 }
 
 .btn-download-ios:hover {
-    background-color: #41D8C1;
+    background-color: var(--btn-ios-hover);
 }
 
 .btn-download-mac {
     width: 15%;
-    padding: 20px;
+    padding: 2.0rem;
     border: none;
-    border-radius: 100px;
-    color: white;
+    border-radius: 10.0rem;
+    color: var(--text-button);
     font-weight: 700;
-    font-size: 15px;
-    background-color: #6174FF;
+    font-size: 1.5rem;
+    background-color: var(--btn-mac-color);
     cursor: pointer;
 }
 
 .btn-download-mac:hover {
-    background-color: #7B68EE;
+    background-color: var(--btn-mac-hover);
 }
 
 footer {
     width: 100%;
-    height: 200px;
+    height: 20.0rem;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -317,11 +331,11 @@ footer {
 footer::before {
     content: '';
     width: 100%;
-    height: 185px;
-    border-radius: 4px;
+    height: 18.5rem;
+    border-radius: 4rem;
     position: absolute;
     z-index: -1;
-    background: #9EABB2;
+    background: var(--second-color);
     opacity: 0.2;
 }
 
@@ -336,16 +350,16 @@ footer::before {
 }
 
 .links a {
-    color: #4C545C;
-    margin: 10px;
+    color: var(--primary-color);
+    margin: 1.0rem;
 }
 
 .links a:hover{
-    color: #CFD4D8;
+    color: var(--link-hover);
 }
 
 .social-footer {
     display: flex;
     gap: 2.4rem;
-    margin: 10px;
+    margin: 1.0rem;
 }
