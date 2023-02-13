@@ -94,11 +94,11 @@ header::before {
     width: 15%;
     padding: 2.0rem;
     border: none;
-    border-radius: 10.0rem;
-    color: var(--text-button);
+    border-radius: 100px;
+    color: white;
     font-weight: 700;
-    font-size: 1.5rem;
-    background-color: var(--btn-ios-color);
+    font-size: 15px;
+    background-color: #26BBA4;
     cursor: pointer;
 }
 
@@ -110,11 +110,11 @@ header::before {
     width: 15%;
     padding: 2.0rem;
     border: none;
-    border-radius: 10.0rem;
-    color: var(--text-button);
+    border-radius: 100px;
+    color: white;
     font-weight: 700;
-    font-size: 1.5rem;
-    background-color: var(--btn-mac-color);
+    font-size: 15px;
+    background-color: #6174FF;
     cursor: pointer;
 }
 
@@ -293,8 +293,8 @@ main {
     border-radius: 100px;
     color: var(--text-button);
     font-weight: 700;
-    font-size: 1.5rem;
-    background-color: var(--btn-ios-color);
+    font-size: 15px;
+    background-color: #26BBA4;
     cursor: pointer;
 }
 
@@ -306,11 +306,11 @@ main {
     width: 15%;
     padding: 2.0rem;
     border: none;
-    border-radius: 10.0rem;
-    color: var(--text-button);
+    border-radius: 100px;
+    color: white;
     font-weight: 700;
-    font-size: 1.5rem;
-    background-color: var(--btn-mac-color);
+    font-size: 15px;
+    background-color: #6174FF;
     cursor: pointer;
 }
 
@@ -350,8 +350,8 @@ footer::before {
 }
 
 .links a {
-    color: var(--primary-color);
-    margin: 1.0rem;
+    color: #4C545C;
+    margin: 10px;
 }
 
 .links a:hover{
